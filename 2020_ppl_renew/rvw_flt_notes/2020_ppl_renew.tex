@@ -8,6 +8,8 @@
 \usepackage[ansinew]{inputenc}
 \usepackage[OT1]{fontenc}
 \usepackage{graphicx}
+\usepackage{makeidx}
+\makeindex{}
 %
 \begin{document}
 %-----------------------------------------------------------------------------------
@@ -27,8 +29,8 @@ in 2020.
 \pagenumbering{roman}    %No page number on table of contents.
 \tableofcontents{}
 \clearpage{}
-\listoffigures
-\clearpage{}
+%\listoffigures
+%\clearpage{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Force the page number to 1.  We don't want to number the table of contents
@@ -407,6 +409,132 @@ TBD.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Flight Lessons}
+\label{sfle0}
+
+This section contains an possible/proposed outline of things to do and discuss
+during flight lessons.  Most of the lessons come from the PPL PTS, but there
+are other sources as well.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Introductory Flight (Completed 7/17/2020)}
+\label{sfle0:sint0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Purpose/Agenda}
+\label{sfle0:sint0:spov0}
+
+\begin{itemize}
+\item To determine if I'm still comfortable operating a small airplane.
+\item To determine how badly my skills have detiorated.
+\item To make an informal traning plan with CFI\textsubscript{1}.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Notes from Lesson}
+\label{sfle0:sint0:snff0}
+
+\begin{itemize}
+\item CFI\textsubscript{1} is available on Fridays.
+\item A 2-hour appointment is about right.
+\item Surprisingly, use of rudder pedals is still acceptable (no difficulty taxiing,
+      no weaving on takeoff roll).
+\item Difficulty running all 3 control loops during crosswind landing
+      (\S{}\ref{sqsa0:slnd0:slhy0}).
+\item Difficulty in the last 10 vertical feet, no float 
+      (\S{}\ref{sqsa0:slnd0:srdf0}).
+\item Airplane is a newer model than I trained on.  Need familiarity with the engine,
+      leaning procedures, GPS, and ADS-B.	  
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Slow Flight, Stalls (Not Yet Completed)}
+\label{sfle0:ssfs0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Purpose/Agenda}
+\label{sfle0:ssfs0:spov0}
+
+\begin{itemize}
+\item Slow flight.
+\item Power-off stalls and recovery.
+\item Power-on stalls and recovery.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Notes from Lesson}
+\label{sfle0:ssfs0:snff0}
+
+TBD.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Engine Failures (Not Yet Completed)}
+\label{sfle0:sefa0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Purpose/Agenda}
+\label{sfle0:sefa0:spov0}
+
+\begin{itemize}
+\item Engine failures pre-$V_1$/$V_2$.
+\item Engine failures post-$V_1$/$V_2$ and below 800 feet.
+\item Engine failures above 800 feet and below cruise.
+\item Engine failures in cruise.
+\item Engine failures in airport approach.
+\item Engine failures in pattern.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Notes from Lesson}
+\label{sfle0:sefa0:snff0}
+
+TBD.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Control Failures (Not Yet Completed)}
+\label{sfle0:scfa0}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Purpose/Agenda}
+\label{sfle0:scfa0:spov0}
+
+\begin{itemize}
+\item Throttle cable/linkage failure.
+\item Mixture cable/linkage failure.
+\item Brake failure.
+\item Elevator failure.
+\item Trim tab failure.
+\item Rudder failure.
+\item Aileron failure.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Notes from Lesson}
+\label{sfle0:scfa0:snff0}
+
+TBD.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Notes about Obtaining Third-Class Medical Certificate}
 \label{stcm0}
 
@@ -434,6 +562,19 @@ displeasure with ``your airplane''?  What was the source of displeasure, and wha
 is the best procedure for positive exchange of flight controls?
 
 \noindent{}\emph{Answer:}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Where is ADS-B Required?}
+\label{sqsa0:sfig0:sads0}
+
+\index{ADS-B}\emph{Question:} During initial flight, the instructor indicated that the NAV
+light switch also controlled ADS-B.  On my sectional chart, noticed the 30NM
+radius where a MODE-C transponder is required, but didn't see a mention of ADS-B.
+Where/when is it required?
+
+\noindent{}\emph{Answer:}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -506,4 +647,15 @@ there a vacuum gauge?
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Bibliography
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\input{misc_latex/workbibl}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Index Must Be Formed At This Directory Level
+\clearpage
+\addcontentsline{toc}{section}{Index}
+\printindex
+
 \end{document}
